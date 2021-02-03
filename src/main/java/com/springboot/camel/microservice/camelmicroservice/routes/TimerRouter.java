@@ -8,7 +8,7 @@ import org.apache.camel.builder.RouteBuilder;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-@Component
+//@Component
 public class TimerRouter extends RouteBuilder {
 
     private final GetCurrentTimeBean getCurrentTimeBean;
